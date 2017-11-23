@@ -1,0 +1,108 @@
+
+html{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
+*,
+*:before,
+*:after{-webkit-box-sizing:inherit;-moz-box-sizing:inherit;box-sizing:inherit;}
+
+body,
+blockquote,
+dd,
+dl,
+figure,
+form,
+p,
+pre,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{margin:0;}
+em,
+i{font-style: italic;}
+p{color:#3d464d;font-size:14px;line-height:1.6;}
+
+menu,
+ul,
+ol{list-style:none;margin:0;padding:0;}
+
+body{-moz-transition:all 0.5s ease;-ms-transition:all 0.5s ease;-o-transition:all 0.5s ease;-webkit-transition:all 0.5s ease;background-color: #f6f6f6;line-height:1.5;transition:all 0.5s ease;}
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input,
+button,
+select,
+textarea{font-size: 14px;line-height:1.4;}
+
+/* 璁剧疆瀛椾綋澶у皬 */
+input[type="button"],
+input[type="submit"],
+input[type="reset"]{font-size:16px;}
+
+/* 璁剧疆瀛椾綋澶у皬锛岃繖閮ㄥ垎璺熷墠闈㈠啓鍦ㄤ竴璧凤紝IE6涓細鏃犳晥 */
+
+/*===== 瀛椾綋鎺у埗 =====*/
+body,
+input,
+button,
+select,
+optgroup,
+option,
+textarea,
+pre{font-family:suxingme,"Open Sans",Arial,"Hiragino Sans GB","Microsoft YaHei","STHeiti","WenQuanYi Micro Hei",SimSun,sans-serif;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;}
+
+/*===== 璁剧疆iframe鐨勮儗鏅壊浠ュ強鍘婚櫎涓埆娴忚鍣╥frame搴曢儴鐨勫嚑涓儚绱� =====*/
+iframe{background-color:#FFFFFF;vertical-align:middle;}
+
+/*===== 璁剧疆鏂囨湰閾炬帴鏍峰紡 =====*/
+a{color:#48494d;text-decoration:none;-webkit-transition:all .3s ease;-moz-transition:all .3s ease;-ms-transition:all .3s ease;-o-transition:all .3s ease;transition:all .3s ease;cursor:pointer;}
+a:hover{text-decoration:none;color:#00A7EB;}
+
+/*===== 鍘婚櫎涓埆娴忚鍣ㄥ浘鐗囧簳閮ㄧ殑鍑犱釜鍍忕礌锛屼互鍙婅缃浘鐗囧舰寮忛摼鎺ユ棤杈规 =====*/
+img{vertical-align:middle;}
+a img{border:0 none;}
+
+/*===== 璁剧疆琛ㄥ崟鍏冪礌鐨勬牱寮� =====*/
+fieldset{margin:0;padding:0;}
+legend{color:windowtext;}
+
+/* 璁剧疆琛ㄥ崟鍩熼儴鍒嗙殑瀛椾綋棰滆壊涓虹郴缁熺獥浣撴枃鏈鑹� */
+button,
+input.ie6{overflow:visible;padding:.1em .25em;cursor:pointer;outline:none;border:0;-webkit-transition:all .3s ease;-moz-transition:all .3s ease;-ms-transition:all .3s ease;-o-transition:all .3s ease;transition:all .3s ease;}
+
+/* 灏介噺缁熶竴鎸夐挳鐨勫ぇ灏忥紝閴翠簬IE6涓嶆敮鎸併€愬睘鎬ч€夋嫨绗︺€戯紝鎵€浠ヤ娇鐢ㄤ竴涓被鍚嶆潵鎺у埗 */
+input[type="button"],
+input[type="submit"],
+input[type="reset"]{overflow:visible;padding:.1em .25em;cursor:pointer;}
+
+/* 灏介噺鍚屾剰鎸夐挳鐨勫ぇ灏忥紝濡傛灉閲囩敤input鏂瑰紡鍋氱殑鎸夐挳 */
+input,
+input:focus,
+input[type="text"],
+input[type="text"]:focus,
+select,
+textarea{background-color:#FFFFFF;border-color:#eaeaea;outline:none!important;box-shadow:none!important;}
+input:focus,
+input[type="text"]:focus{border-color:#dde1e8;}
+/* 缁熶竴鏂囨湰杈撳叆妗嗐€佷笅鎷夈€佹枃鏈鐨勮儗鏅壊锛岄伩鍏嶈鐢ㄦ埛璁剧疆绯荤粺棰滆壊鑰岀牬鍧忛〉闈㈣壊褰� */
+button,
+button:focus{box-shadow:none;}
+select{border:1px inset;}
+
+/* 缁熶竴涓嬫媺鐨勮竟妗� */
+textarea{overflow:auto;vertical-align:text-bottom;*vertical-align:auto;border:1px solid;resize:vertical;}
+
+/* 婊氬姩鏉′负auto锛屼笌鍛ㄨ竟鐨勫厓绱犲榻愭柟寮忥紝鍏朵腑hack閮ㄥ垎鏄疘E6&7涓璿ertical-align褰卞搷鑼冨洿娓呴櫎锛宺esize涓轰笂涓嬪彲鎷夊姩锛岄伩鍏嶅乏鍙虫媺鍔ㄧ牬鍧忛〉闈㈠竷灞€锛屽鏈夐渶瑕佸彲浠ヨ缃负none */
+
+/*===== 璁剧疆琛ㄦ牸鍏冪礌鐨勬牱寮� =====*/
+table{border-spacing:0;}
+
+/* 鍚堝苟琛ㄦ牸鐨勯棿闅欙紝鍘绘帀鍗曞厓鏍间箣闂寸殑闂磋窛锛屽鏈夐渶瑕佸悎骞跺崟鍏冩牸涓虹粏绾胯〃鏍硷紝鍙鍔� border-collapse:collapse; */
+td,
+th,
+caption{padding:0;}
