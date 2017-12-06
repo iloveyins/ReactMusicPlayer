@@ -10,7 +10,6 @@ let duration = null;
 let Root = React.createClass({
   getInitialState(){
       return {
-         volume:0,
          musiclist : MUSIC_LIST,
          currentMusciItem : MUSIC_LIST[0]
       }
@@ -19,7 +18,7 @@ let Root = React.createClass({
       $("#player").jPlayer({
         ready:function(){
           $(this).jPlayer('setMedia',{
-            mp3:'http://sc1 .111ttt.com/2017/1/11/11/304112003137.mp3'
+            mp3:'http://sc1.111ttt.com/2017/1/11/11/304112003137.mp3'
           }).jPlayer('play');
         },
         supplied:'mp3',
@@ -35,10 +34,13 @@ let Root = React.createClass({
           <Header />
           {/* <Player currentMusciItem = { this.state.currentMusciItem }></Player> */}
           <MusicList musiclist = { this.state.musiclist }></MusicList>
-          <Footer volumes = {this.state.volume}></Footer>
+          <Footer></Footer>
       </div>
     );
   }
 });
 
 export default Root;
+
+
+

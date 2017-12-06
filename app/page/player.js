@@ -19,11 +19,7 @@ let Player = React.createClass({
             //progress:Math.round(e.jPlayer.status.currentTime)
             volume:e.jPlayer.options.volume, //获取当前音量
             progress:e.jPlayer.status.currentPercentAbsolute, //获取当前进度
-           
           });
-          this.setState((prevState, props) => ({
-            volumes:e.jPlayer.options.volume
-        }));
       });
   },
   componentWillMount(){
@@ -44,7 +40,6 @@ let Player = React.createClass({
               progress={this.state.progress}
               onProgressChange={this.progressChangeHandler}
               barColor="#2f9842"></Progerss>
-
               <h1 className='musicName'>{this.props.currentMusciItem.title}</h1>
               <h2 className="author">{this.props.currentMusciItem.author}</h2>
               <span className="lyric">-</span>
@@ -52,6 +47,5 @@ let Player = React.createClass({
       </div>
     );
   }
-})
-
+});
 export default Player;

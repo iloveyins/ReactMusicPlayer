@@ -1,5 +1,6 @@
 import React from 'react';
 import MusicListItem from '../components/musicListItem'
+import './musiclist.less'
 let MusicList = React.createClass({
     render(){
         let listEle= null;
@@ -12,7 +13,7 @@ let MusicList = React.createClass({
             )
         });
         return (
-            <ul>
+            <ul className="music-ul">
                 {listEle}
             </ul>
         )
